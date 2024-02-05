@@ -108,10 +108,12 @@ Enter your comments</textarea
             <input type="submit" value="upload" />
           </form>
           <form action="">
+            <h6>Subscribe input text box and submit button</h6>
             <p>Subscribe to our email list</p>
             <input type="text" name="email" title="email" />
             <input type="submit" name="subscribe" value="subscribe" />
           </form>
+
         </td>
         <td>
           <form action="" method="get">
@@ -137,13 +139,26 @@ Enter your comments</textarea
             <option value="keyboard" selected="selected">Keyboard</option>
             <option value="bass">Bass</option>
           </select>
+          <h6>Grouping form elements</h6>
+          <fieldset>
+            <legend>Contact Details</legend>
+            <label for="email">Email:<br />
+              <input type="text" name="email">
+            </label><br />
+            <label for="mobile">Mobile:<br />
+              <input type="text" name="mobile" title="mobile">
+            </label><br />
+            <label for="phone">Telephone:<br />
+              <input type="text" name="phone">
+            </label>
+          </fieldset>
         </td>
       </tr>
     </table>
 
     <script src="" async defer></script>
     <p>
-      <a href="tables.html">Back |</a> <a href="form_structure.html">Next</a>
+      <a href="tables.html">Back |</a> <a href="html5.html">Next</a>
     </p>
   </body>
 </html>
